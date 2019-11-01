@@ -16,11 +16,15 @@
         <relativePath/>
     </parent>
 
+    <!-- 子模块 -->
     <modules>
         <module>eureka-server</module>
         <module>eureka-client</module>
+        <module>service-ribbon</module>
+        <module>service-feign</module>
     </modules>
 
+    <!-- 公共属性 -->
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
