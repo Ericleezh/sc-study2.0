@@ -4,10 +4,10 @@ eureka:
   instance:
     hostname: localhost
   client:
-    register-with-eureka: false
+    register-with-eureka: false # register-with-eureka,fetch-registry 表明自己为eureka-server
     fetch-registry: false
     service-url:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 spring:
   application:
-    name: eureka-server
+    name: eureka-server #服务名称
